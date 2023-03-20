@@ -12,7 +12,7 @@ RUN npm config set registry http://registry.npmjs.org/
 RUN npm config set strict-ssl false
 
 COPY ./Dockerfile /opt/
-
+COPY ./run.sh /opt/
 ADD run.sh .
 
 RUN chmod +x run.sh
