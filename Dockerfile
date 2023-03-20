@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:18
 
 LABEL key="Sopan <sagorkars@gmail.com>" 
 RUN apt-get update
