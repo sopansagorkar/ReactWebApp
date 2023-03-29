@@ -6,6 +6,9 @@ To run this project inside docker container use below command<br>
 
 docker run -d -p <HOST_PORT>:<CONTAINER_PORT> <IMAGE_ID>
 
+Docker image Example:
+`docker pull sopansagorkar/webappreact:node18`
+
 ## Available Scripts
 
 In the project directory, you can run:
